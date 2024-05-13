@@ -1,0 +1,16 @@
+/* CustomArrow.css (You can also add these styles to your Tailwind CSS setup) */
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; /* Ensure arrows are above carousel content */
+  }
+  
+  .left-arrow {
+    left: 0;
+  }
+  
+  .right-arrow {
+    right: 0;
+  }
+  

@@ -1,0 +1,10 @@
+.custom-disc {
+  list-style: none;
+}
+
+.custom-disc li::before {
+  content: "•"; /* Custom bullet point */
+  color:#ef3038 ; /* Red color */
+  font-size: 1.5rem; /* Adjust size as needed */
+  margin-right: 0.3rem; /* Adjust spacing as needed */
+}
