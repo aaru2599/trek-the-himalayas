@@ -1,6 +1,6 @@
 export const HeaderData = [
     {
-      logo: ["https://trekthehimalayas.com/assets/images/tthlogo.webp"],
+      logo: ["/src/assets/logo/logo.png"],
       center: {
         left: {
           heading: "Choose Trek",

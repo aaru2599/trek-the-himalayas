@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 import Logo from "../Atoms/Logo";
 const Header = ({ logo, center, end }) => {
   return (
-    <div id="header" className="flex justify-between items-center bg-[#ebeff2] h-[60px] px-4">
+    <div id="header" className="flex justify-between items-center bg-[#ebeff2] px-4">
       {/* Render logo */}
       {logo &&
         logo.map((logoUrl, index) => <Logo key={index} logo={logoUrl} />)}
