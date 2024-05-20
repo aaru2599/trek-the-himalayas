@@ -1,8 +1,8 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 
+import "/src/Components/MainCarousal/CarouselPage.css";
+
 const BottomSlider = ({ sliderData }) => {
-  //console.log("sliderData", sliderData);
   return (
     <Carousel
       autoPlaySpeed={5000}

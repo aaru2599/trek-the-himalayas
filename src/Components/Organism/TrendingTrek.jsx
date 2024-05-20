@@ -5,6 +5,7 @@ import SectionHeading from "../Atoms/SectionHeading";
 import SectionSubHeading from "../Atoms/SectionSubHeading";
 import SampleSlider from "../Molecule/SampleCarousel";
 import SampleImage from "../Atoms/SampleImage";
+import SampleSliderSection from "../Molecule/SampleSliderSection";
 
 const TrendingTrek = () => {
   const data = TrendingTrekData;
@@ -16,8 +17,8 @@ const TrendingTrek = () => {
           <div key={trekIndex}>
             <SectionHeading heading={trekItem.heading} />
             <SectionSubHeading subHeading={trekItem.subHeading} />
-            
-            <SampleSlider treksData={trekItem.treks} cardPerPage={3.9} />
+            <SampleSliderSection treksData={trekItem.treks} slidingWidth={350}/>
+            {/* <SampleSlider treksData={trekItem.treks} cardPerPage={3.9} /> */}
             <div className="mt-[40px]">
               <SampleImage imageData={trekItem.bottomImage}  />
             </div>

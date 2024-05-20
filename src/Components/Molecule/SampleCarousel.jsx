@@ -5,7 +5,7 @@ const SampleCarousel = ({ carouselData }) => {
   console.log("data", carouselData);
   return (
     <div>
-      {/* <Carousel
+       <Carousel
         autoPlaySpeed={5000}
         // centerMode={true}
         className=""
@@ -68,7 +68,7 @@ const SampleCarousel = ({ carouselData }) => {
             </div>
           );
         })}
-      </Carousel> */}
+      </Carousel> 
     </div>
   );
 };

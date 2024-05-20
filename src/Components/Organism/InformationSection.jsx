@@ -13,7 +13,7 @@ const InformationSection = () => {
           <div key={index}>
             <SectionHeading heading={item.heading} />
             <SectionSubHeading subHeading={item.subHeading} />
-            <SampleSliderSection infoData={item.infoData}/>
+            <SampleSliderSection infoData={item.infoData} slidingWidth={250}/>
             {/* <SampleSlider infoData={item.infoData} cardPerPage={4.5} /> */}
           </div>
         );
